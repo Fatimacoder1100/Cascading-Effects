@@ -1,0 +1,41 @@
+body {
+    background-color: green !important;
+    background: radial-gradient(red, yellow);
+    background-attachment: fixed;
+}
+
+h1 {
+    background-color: red;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+div {
+    width: 80%;
+    margin: 20px auto;
+    padding: 30px;
+    text-align: center;
+    color: white;
+    border-radius: 10px;
+}
+
+.image-box {
+    background: url(images.jpeg) no-repeat center/cover;
+    height: 1050px;
+    width: 900;
+}
+
+.gradient-box {
+    background: url('il_fullxfull.5037973512_3mgp.webp') no-repeat center/cover, 
+                linear-gradient(to bottom, blue, purple);
+    background-blend-mode:multiply;
+    height: 400px;
+    width: 700px;
+}
+
+.container{
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+}
